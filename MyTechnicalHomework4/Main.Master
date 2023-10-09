@@ -6,17 +6,27 @@
 <head runat="server">
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
+        <link href="Content/bootstrap.min.css" rel="stylesheet" />
+        <link href="Content/bootstrap-utilities.css" rel="stylesheet" />
     </asp:ContentPlaceHolder>
+
 </head>
 <body>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+        <link href="Content/bootstrap-utilities.css" rel="stylesheet" />
     <form id="form1" runat="server">
-        <div>
-            <h1 style="color: blue">Master Page</h1>
-            <div>
-                <a href="Default.aspx">Page 1</a>
-                <a href="PageTwo.aspx">Page 2</a>
-                <a href="Page3.aspx">Page 3</a>
-            </div>
+        <div class="container">
+            <h1 style="color: blue">PetMed</h1>
+                <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="Default.aspx">Login</a></li>
+                    <li class="breadcrumb-item"><a href="PageTwo.aspx">Prescription Category</a></li>
+                    <li class="breadcrumb-item"><a href="Page3.aspx">Order Form</a></li>
+
+                    <li class="breadcrumb-item active" aria-current="page">Data</li>
+                  </ol>
+                </nav>
+             
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
