@@ -3,7 +3,7 @@
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <h5>Default Content Page</h5>
+    <h5>Login Page</h5>
     <div class="container ">
         <div class="row d-flex align-items-center justify-content-center">
             <div class="col-md-6" >

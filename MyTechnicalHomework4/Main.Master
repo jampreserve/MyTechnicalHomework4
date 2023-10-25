@@ -11,11 +11,11 @@
     </asp:ContentPlaceHolder>
 
 </head>
-<body>
+<body style="background-color: #9EF9FF">
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
         <link href="Content/bootstrap-utilities.css" rel="stylesheet" />
-    <form id="form1" runat="server">
-        <div class="container">
+    <form id="form1" runat="server" >
+        <div class="container" >
             <h1 style="color: blue">PetMed</h1>
                 <nav aria-label="breadcrumb">
                   <ol class="breadcrumb">
