@@ -11,8 +11,6 @@
               <span>This is a form for Vets only. Please enter prescription information: </span>
               <hr class="mt-1" />
           </div>
-
-          <!--Owner's Info-->
           <div class="col-12">
               <div class="row mx-4">
                   <div class="col-12">
@@ -85,7 +83,7 @@
            
               <div class="row mt-3 mx-4">
                   <div class="col-12">
-                      <label class="order-form-label">Adress</label>
+                      <label class="order-form-label">Address</label>
                   </div>
                   <div class="col-12">
                       <div class="form-outline">
